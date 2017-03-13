@@ -3,13 +3,14 @@ package models
 import (
 	"database/sql"
 	"encoding/json"
-	"github.com/gin-gonic/gin"
-	_ "github.com/mattn/go-sqlite3"
-	"gopkg.in/gorp.v1"
 	"log"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/gin-gonic/gin"
+	"github.com/go-gorp/gorp.v1"
+	_ "github.com/mattn/go-sqlite3"
 )
 
 // Database gin Middlware to select database

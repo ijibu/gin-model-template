@@ -2,10 +2,11 @@ package models
 
 import (
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"gopkg.in/gorp.v1"
 	"strconv"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/go-gorp/gorp.v1"
 )
 
 /**
