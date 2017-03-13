@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-gorp/gorp.v1"
+	"github.com/go-gorp/gorp"
 	_ "github.com/mattn/go-sqlite3"
 )
 
